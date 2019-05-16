@@ -6,8 +6,6 @@ function showMyImage(fileInput) {
         if (!file.type.match(imageType)) {
             continue;
         }
-        
-        
         var img = document.getElementById("thumbnail");  
         img.style.display = "block";
         img.file = file;    

@@ -7,7 +7,7 @@ app.static_folder = 'static'
 # compress = FlaskStaticCompress(app)
 
 
-prog = ClarifaiApp(api_key='c02ed0679e544b64b2ec5091786634b6') # Use the api key provided by clarify for your application
+prog = ClarifaiApp(api_key='<ADD YOUR API KEY>') # Use the api key provided by clarify for your application
 
 UPLOAD_FOLDER = os.getcwd() + '/uploads'
 
