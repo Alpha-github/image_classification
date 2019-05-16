@@ -1,0 +1,27 @@
+/* .form-styling{
+    align-items: center;
+    text-align: center;
+} */
+
+
+.title-styling{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.image-styling{
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 5px #eaeaea;
+    /* background-color: red; */
+}
+
+.response-styling{
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.response-block-styling{
+    margin-top:50px;
+}

@@ -1,0 +1,1 @@
+This folder(uploads) is used to store the input images temporarily, for it to be sent to your custom model in Clarifai
