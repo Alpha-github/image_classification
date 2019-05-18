@@ -19,7 +19,7 @@ Stratify uses a number of open source platforms and packages to work properly:
 
 * [Flask] - Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions
 * [Python] - An easy to pick up proramming language and fun to play with
-* [Java] - A popular programming language, owned by Oracle and running on more than 3 billion devices.
+* [JavaScript] - JavaScript (JS) is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.
 
 
 ### Setup
@@ -53,11 +53,13 @@ $ git clone https://github.com/Alpha-github/image_classification.git
 
 
 ## Important Notes:
- ##### 1. Make sure that the javascript and the css files are in their respective folders (namely js and css) which are placed in the main folder named static.
+ ##### 1. Before running the app.py, make sure that you enter your api key given by Clarifai.
  #
- ##### 2. Create a separate folder (called "uploads") in the project directory to temporarily save the image, for it to be processed by your custom Clarifai model
+ ##### 2. Make sure that the javascript and the css files are in their respective folders (namely js and css) which are placed in the main folder named static.
  #
- ##### 3. Place all the program files in the same directory.
+ ##### 3. Create a separate folder (called "uploads") in the project directory to temporarily save the image, for it to be processed by your custom Clarifai model
+ #
+ ##### 4. Place all the program files in the same directory.
 #
 ## License
 #### Public
@@ -66,7 +68,7 @@ $ git clone https://github.com/Alpha-github/image_classification.git
    [Clarifai]: <https://www.clarifai.com/>
    [Python]: <https://www.python.org/>
    [Flask]: <http://flask.pocoo.org/>
-   [Java]: <https://www.java.com/>
+   [JavaScript]: <https://www.javascript.com/>
    [Click to go to Python Download Page]: <https://www.python.org/downloads/>
    
   
