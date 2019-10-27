@@ -6,8 +6,8 @@ app = Flask(__name__, static_folder="static", template_folder="template")
 app.static_folder = 'static'
 # compress = FlaskStaticCompress(app)
 
-
-prog = ClarifaiApp(api_key='ADD YOUR API KEY') # Use the api key provided by clarify for your application
+os.environ["CLARIFAI_API_KEY"] = '2b76fed9c7114f33ad3f0dd815460b9f'
+prog = ClarifaiApp(api_key= os.environ["CLARIFAI_API_KEY"]) # Use the api key provided by clarify for your application
 
 UPLOAD_FOLDER = os.getcwd() + '/uploads'
 
@@ -47,4 +47,4 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3000))
     app.run(host='0.0.0.0', port=port, debug=True)
 
-  
+  # NOTE: While using host = 0.0.0.0 ; specify 0.0.0.0 as localhost in the url(i.e http://localhost:3000/)
