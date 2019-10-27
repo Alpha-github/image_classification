@@ -4,9 +4,11 @@ from clarifai.rest import ClarifaiApp
 
 app = Flask(__name__, static_folder="static", template_folder="template")
 app.static_folder = 'static'
+
+
 # compress = FlaskStaticCompress(app)
 
-os.environ["CLARIFAI_API_KEY"] = '2b76fed9c7114f33ad3f0dd815460b9f'
+#print(os.environ["CLARIFAI_API_KEY"])
 prog = ClarifaiApp(api_key= os.environ["CLARIFAI_API_KEY"]) # Use the api key provided by clarify for your application
 
 UPLOAD_FOLDER = os.getcwd() + '/uploads'
