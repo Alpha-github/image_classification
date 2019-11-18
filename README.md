@@ -18,7 +18,7 @@ There are three components to this project:
 Stratify uses a number of open source platforms and packages to work properly:
 
 * [Flask] - Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions
-* [Python] - An easy to pick up proramming language and fun to play with
+* [Python] - An easy way to pick up proramming language and fun to play with
 * [JavaScript] - JavaScript (JS) is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.
 
 
