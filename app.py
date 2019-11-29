@@ -29,9 +29,10 @@ def result():
         img_file.save(os.path.join(UPLOAD_FOLDER, img_name))
         #print(os.path.join(UPLOAD_FOLDER, img_name))
 
-        model = prog.models.get('Flowers')
+        model = prog.models.get('General') # For using custom model - replace "General" with "Flowers"
         resp = model.predict_by_filename(UPLOAD_FOLDER + '/' + img_name)
         img_path = UPLOAD_FOLDER + '/' + img_name
+        print(resp)
         response = resp['outputs'][0]['data']['concepts'][0]
         print(response)
 
