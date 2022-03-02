@@ -10,8 +10,7 @@ $(function() {  //when a $ sign is used before a function, it becomes an event l
             cache: false,
             processData: false,
             success: function(data) {
-                // console.log('Success!');
-                // alert(JSON.stringify(data))
+                console.log('Success!');
                 console.log(data);
 
                 if(data.recognised){
