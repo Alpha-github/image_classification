@@ -8,7 +8,7 @@ from clarifai_grpc.grpc.api import service_pb2_grpc
 
 stub = service_pb2_grpc.V2Stub(ClarifaiChannel.get_grpc_channel())
 
-apikey = os.environ["CLARIFAI_API_KEY"]
+apikey = os.environ.get("CLARIFAI_API_KEY")
 # This is how you authenticate.
 metadata = (('authorization', 'Key '+apikey),) 
 
@@ -95,4 +95,4 @@ def result():
             return jsonify({"recognised" :False, "payload":None})
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=os.environ.get('PORT', 3000), debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 3000)), debug=True)
